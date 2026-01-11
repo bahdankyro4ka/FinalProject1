@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Getting started: Serving Web Content</title>
+</head>
+<body>
+<p th:text="'Hello, ' + ${name} + '!'"></p>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+    A accusantium consequatur dignissimos ex explicabo harum magni<br>
+    quaerat quam quas, quasi quia repellendus tenetur ut veritatis vero!<br>
+    Id laudantium tempora temporibus.
+</p>
+<img th:src="@{/images/vistula.png}" width = "300" height = "330" style = "margin:65px"/>
+</body>
+</html>
